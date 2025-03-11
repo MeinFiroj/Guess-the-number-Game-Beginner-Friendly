@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body,
+html {
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    font-size: 18px;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1,
+h2 {
+    color: white;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+h1{
+    margin-top: 2rem;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    -webkit-text-stroke: 1px rgb(171, 160, 7);
+}
+
+form {
+    position: relative;
+    margin-top: 3rem;
+    z-index: 100;
+}
+
+form input {
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    background: rgb(231, 221, 255);
+    border: 2px solid rgb(58, 58, 58);
+    color: rgb(165, 11, 165);
+    border-radius: .5rem;
+    transition: border-color .3s linear;
+}
+
+form input::placeholder {
+    color: rgb(165, 11, 165);
+}
+
+form input:focus {
+    outline: none;
+    border-color: aliceblue;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    background: rgb(69, 69, 69);
+    border: 2px solid rgb(58, 58, 58);
+    color: yellow;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background-color .1s linear;
+}
+
+#refresh {
+    color: aqua;
+}
+
+.btn:hover {
+    background: rgb(79, 79, 79);
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#congrats {
+    color: green;
+    font-size: 2rem;
+    position: relative;
+    z-index: 100;
+    margin: 1rem;
+    display: none;
+    
+}
